@@ -2,7 +2,7 @@
 
 if(isset($_GET['hostname']))
 {
-    // send a command
+    // send a PowerShell command to client
    echo "Write-Host 'Installing updates'";
 }
 
